@@ -39,7 +39,7 @@ environment:
       PYTHON: C:\Python38-x64
 
 matrix:
-  fast_finish: false
+  fast_finish: false 
 
 cache:
   - '%LOCALAPPDATA%\pip\Cache -> appveyor.yml'
